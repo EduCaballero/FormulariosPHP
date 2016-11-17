@@ -9,7 +9,7 @@ Ejemplo de un formulario un poquito más completo
     </head>
     <body>
         <form action="datos.php" method="POST">
-            <p></p>Nombre: <input type="text" name="nombre"></p>
+            <p>Nombre: <input type="text" name="nombre"></p>
             <p>Edad: <input type="number" name="edad"></p>
             <p>Ciudad: <select name="ciudad"></p>
                 <option>Barcelona</option>
@@ -21,7 +21,7 @@ Ejemplo de un formulario un poquito más completo
             Hombre <input type="radio" name="sexo" value="hombre">
             Mujer <input type="radio" name="sexo" value="mujer">
             </p>
-            <input type="submit"name="enviar" value="Enviar datos">
+            <input type="submit" name="enviar" value="Enviar datos">
         </form>
     </body>
 </html>
